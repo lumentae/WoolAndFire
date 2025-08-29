@@ -7,6 +7,7 @@ import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.food.Foods;
 import net.minecraft.world.item.Item;
 
@@ -16,7 +17,13 @@ public class ModItems {
     public static final Item EXPLOSIVE_BREAD = register(
             "explosive_bread",
             ExplosiveBreadItem::new,
-            new Item.Properties().food(Foods.BREAD)
+            new Item.Properties().food(
+                    new FoodProperties.Builder()
+                            .nutrition(5)
+                            .saturationModifier(0.6f)
+                            .alwaysEdible()
+                            .build()
+            )
     );
 
     public static Item register(String name, Function<Item.Properties, Item> itemFactory, Item.Properties settings) {
