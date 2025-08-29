@@ -14,8 +14,6 @@ public class ExplosiveBreadItem extends Item {
     @Override
     public @NotNull ItemStack finishUsingItem(ItemStack stack, Level level, LivingEntity livingEntity) {
         level.explode(livingEntity, livingEntity.getX(), livingEntity.getY(), livingEntity.getZ(), 2f, Level.ExplosionInteraction.TNT);
-        stack.shrink(1);
-
         return super.finishUsingItem(stack, level, livingEntity);
     }
 }
