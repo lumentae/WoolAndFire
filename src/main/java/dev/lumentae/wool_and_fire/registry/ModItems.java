@@ -1,7 +1,7 @@
 package dev.lumentae.wool_and_fire.registry;
 
 import dev.lumentae.wool_and_fire.Constants;
-import dev.lumentae.wool_and_fire.item.ExplosiveBreadItem;
+import dev.lumentae.wool_and_fire.item.ExplodingBreadItem;
 import dev.lumentae.wool_and_fire.item.MolotovCocktailItem;
 import net.minecraft.core.Registry;
 import net.minecraft.core.registries.BuiltInRegistries;
@@ -14,9 +14,9 @@ import net.minecraft.world.item.Item;
 import java.util.function.Function;
 
 public class ModItems {
-    public static final Item EXPLOSIVE_BREAD = register(
-            "explosive_bread",
-            ExplosiveBreadItem::new,
+    public static final Item EXPLODING_BREAD = register(
+            "exploding_bread",
+            ExplodingBreadItem::new,
             new Item.Properties().food(
                     new FoodProperties.Builder()
                             .nutrition(5)

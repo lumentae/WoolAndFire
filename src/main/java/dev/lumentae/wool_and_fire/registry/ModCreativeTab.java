@@ -18,10 +18,10 @@ public class ModCreativeTab {
 
     public static final CreativeModeTab CUSTOM_CREATIVE_MOD_TAB = FabricItemGroup.builder()
             .title(Component.translatable("itemGroup.wool_and_fire"))
-            .icon(() -> new ItemStack(ModItems.EXPLOSIVE_BREAD))
+            .icon(() -> new ItemStack(ModItems.EXPLODING_BREAD))
             .displayItems((parameters, output) -> {
                 // Add items to the creative tab
-                output.accept(ModItems.EXPLOSIVE_BREAD);
+                output.accept(ModItems.EXPLODING_BREAD);
                 output.accept(ModItems.MOLOTOV_COCKTAIL);
             })
             .build();

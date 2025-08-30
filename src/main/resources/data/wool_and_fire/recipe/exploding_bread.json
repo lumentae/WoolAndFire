@@ -1,0 +1,11 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        "minecraft:bread",
+        "minecraft:gunpowder"
+    ],
+    "result": {
+      "id": "wool_and_fire:exploding_bread",
+      "count": 1
+    }
+}

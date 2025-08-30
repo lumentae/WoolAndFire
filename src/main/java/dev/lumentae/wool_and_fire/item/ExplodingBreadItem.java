@@ -6,8 +6,8 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.Level;
 import org.jetbrains.annotations.NotNull;
 
-public class ExplosiveBreadItem extends Item {
-    public ExplosiveBreadItem(Properties properties) {
+public class ExplodingBreadItem extends Item {
+    public ExplodingBreadItem(Properties properties) {
         super(properties);
     }
 

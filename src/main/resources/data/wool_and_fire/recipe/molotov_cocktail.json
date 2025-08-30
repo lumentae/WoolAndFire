@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#W#",
+        "#G#",
+        "###"
+    ],
+    "key": {
+        "#": "minecraft:brown_stained_glass",
+        "W": "#minecraft:wool",
+        "G": "minecraft:gunpowder"
+    },
+    "result": {
+        "id": "wool_and_fire:molotov_cocktail",
+        "count": 1
+    }
+}

@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "wool_and_fire:item/explosive_bread"
+    "layer0": "wool_and_fire:item/exploding_bread"
   }
 }
