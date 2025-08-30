@@ -4,6 +4,7 @@
   "package": "dev.lumentae.wool_and_fire.mixin",
   "compatibilityLevel": "JAVA_21",
   "mixins": [
+    "SheepMixin"
   ],
   "client": [
   ],
