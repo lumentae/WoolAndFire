@@ -22,6 +22,7 @@ public class ModCreativeTab {
             .displayItems((parameters, output) -> {
                 // Add items to the creative tab
                 output.accept(ModItems.EXPLOSIVE_BREAD);
+                output.accept(ModItems.MOLOTOV_COCKTAIL);
             })
             .build();
 

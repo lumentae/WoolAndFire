@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "wool_and_fire:item/molotov_cocktail"
+  }
+}
