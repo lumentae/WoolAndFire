@@ -27,7 +27,7 @@ public class ThrownMolotovCocktail extends ThrowableItemProjectile {
 
         Level level = level();
         if (!level.isClientSide) {
-            level.explode(this, getX(), getY(), getZ(), 2.0f, true, Level.ExplosionInteraction.BLOCK);
+            level.explode(this, getX(), getY(), getZ(), 5.0f, true, Level.ExplosionInteraction.BLOCK);
             discard();
         }
     }

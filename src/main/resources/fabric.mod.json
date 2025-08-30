@@ -8,6 +8,7 @@
   "contact": {},
   "license": "MIT",
   "icon": "assets/wool_and_fire/icon.png",
+  "accessWidener" : "wool_and_fire.accesswidener",
   "environment": "*",
   "entrypoints": {
     "main": [

@@ -29,7 +29,9 @@ public class ModItems {
     public static final Item MOLOTOV_COCKTAIL = register(
             "molotov_cocktail",
             MolotovCocktailItem::new,
-            new Item.Properties().stacksTo(16)
+            new Item.Properties()
+                    .stacksTo(16)
+                    .useCooldown(5)
     );
 
     public static Item register(String name, Function<Item.Properties, Item> itemFactory, Item.Properties settings) {

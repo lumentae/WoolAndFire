@@ -8,7 +8,7 @@ public class WoolAndFire implements ModInitializer {
 
     @Override
     public void onInitialize() {
-        ModItems.initialize();
         ModCreativeTab.initialize();
+        ModItems.initialize();
     }
 }
